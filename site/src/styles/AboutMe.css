@@ -1,0 +1,31 @@
+/* styles/AboutMe.css */
+.about-me-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Set the height of the section to 100% of the viewport height */
+  }
+  
+  .about-me-content {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center the content horizontally */
+  }
+  
+  .lifeguard-image {
+    width: 30%; /* Adjust the width of the image */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px; /* Add rounded edges */
+    border: 4px solid black; /* Add black border */
+    margin-left: 15vw;
+  }
+  
+  .text-container {
+    margin-left: 20px; /* Adjust the spacing between the image and text */
+  }
+  
+  .text-container p {
+    font-size: 2vw; /* Adjust the font size of the text */
+    margin-right: 10vw;
+  }
+  

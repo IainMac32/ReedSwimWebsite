@@ -1,0 +1,28 @@
+.the-calendar-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .calendar-container {
+    display: flex; /* Use flexbox to align items */
+    align-items: center; /* Center align items vertically */
+    margin-bottom: 13vh;
+    }
+  
+  .calendar {
+    width: 49vw; /* Set a fixed width for the images */
+    height: 76vh; /* Set a fixed height for the images */
+    border-radius: 10px;
+    border: 4px solid rgb(0, 0, 0);; /* Add black border */
+  }
+
+/* Add styles for the text */
+.calendar-container p {
+    font-size: 2.3vw; /* Adjust the font size as needed */
+    font-family: 'Lobster', cursive; /* Specify the font family */
+    margin-left: 2vw; /* Add some space between the image and text */
+    text-align: center; /* Center align the text horizontally */
+
+  }
