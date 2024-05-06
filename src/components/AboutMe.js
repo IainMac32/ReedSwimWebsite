@@ -1,6 +1,6 @@
 // AboutMe.js
 import React from 'react';
-import lifeguardImage from '../images/lifeguard.jpeg'; // Import the image
+import lifeguardImage from '../images/lifeguard.jpg'; // Import the image
 import '../styles/AboutMe.css'; // Import the CSS file for styling
 
 const AboutMe = () => {

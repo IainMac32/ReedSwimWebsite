@@ -10,9 +10,19 @@
     margin-bottom: 12vh;
   }
   
-  .plan {
-    width: 50vw; /* Set a fixed width for the images */
-    height: 73vh; /* Set a fixed height for the images */
+  .plan1 {
+    width: 42vw; /* Set a fixed width for the images */
+    height: 67vh; /* Set a fixed height for the images */
     border-radius: 10px;
     border: 4px solid rgb(25, 0, 255);; /* Add black border */
+    margin-right: 25px;
+  }
+
+  .plan2 {
+    width: 42vw; /* Set a fixed width for the images */
+    height: 67vh; /* Set a fixed height for the images */
+    border-radius: 10px;
+    border: 4px solid rgb(25, 0, 255);; /* Add black border */
+    margin-left: 25px;
+
   }
