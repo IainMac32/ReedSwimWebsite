@@ -2,7 +2,6 @@
 import React, { useState } from 'react';
 import pool1 from '../images/pool1.jpg';
 import pool2 from '../images/pool2.jpg';
-import pool3 from '../images/pool3.jpg';
 import '../styles/ThePool.css';
 
 const ThePool = () => {
