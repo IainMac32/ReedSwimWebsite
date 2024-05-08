@@ -12,7 +12,7 @@ const ThePool = () => {
     if (currentImage === pool1) {
       setCurrentImage(pool2);
     } else if (currentImage === pool2) {
-      setCurrentImage(pool3);
+      setCurrentImage(pool1);
     } else {
       setCurrentImage(pool1);
     }
@@ -20,7 +20,7 @@ const ThePool = () => {
 
   const prevImage = () => {
     if (currentImage === pool1) {
-      setCurrentImage(pool3);
+      setCurrentImage(pool1);
     } else if (currentImage === pool2) {
       setCurrentImage(pool1);
     } else {
