@@ -25,6 +25,9 @@
   margin-left: 2vw; /* Add some space between the image and text */
   text-align: center; /* Center align the text horizontally */
 }
+.calendar-container w {
+  color: rgb(11, 51, 182);
+}
 
 .arrow-container2 {
   position: relative;
