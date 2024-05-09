@@ -35,7 +35,7 @@ const Calendar = () => {
 
         <p>For booking or questions <br/>
           Contact Reed: <br/>
-          905-808-1123 <br/> OR <br/>
+          
           mac<w>swim</w>school<w>oakville</w>@gmail.com
         </p>
       </div>
