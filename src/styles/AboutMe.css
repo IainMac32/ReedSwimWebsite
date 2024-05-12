@@ -1,5 +1,5 @@
-/* styles/AboutMe.css */
-.about-me-section {
+@media screen and (min-width: 769px) {
+  .about-me-section {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -28,4 +28,32 @@
     font-size: 2vw; /* Adjust the font size of the text */
     margin-right: 10vw;
   }
-  
+}
+
+  @media screen and (max-width: 768px) {
+    .about-me-section {
+        flex-direction: column; /* Stack items vertically */
+        text-align: center; /* Center align text */
+        height: 100vh; /* Set the height of the section to 100% of the viewport height */
+    }
+    
+    .about-me-content {
+      flex-direction: column; /* Stack items vertically */
+      text-align: center; /* Center align text */
+      }
+    
+    .lifeguard-image {
+      width: 90%; /* Adjust the width of the image */
+      height: auto; /* Maintain aspect ratio */
+      border-radius: 10px; /* Add rounded edges */
+      border: 4px solid black; /* Add black border */
+      margin-top: 12vh;
+    }
+    
+    
+    .text-container p {
+      font-size: 5.4vw; /* Adjust the font size of the text */
+      margin-right: 4vw;
+      margin-left: 4vw;
+    }
+  }

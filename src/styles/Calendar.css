@@ -1,64 +1,121 @@
-.the-calendar-section {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
+@media screen and (min-width: 769px) {
+  .the-calendar-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  .calendar-container {
+    display: flex; /* Use flexbox to align items */
+    align-items: center; /*Center align items vertically */
+    margin-bottom: 13vh;
+  }
+
+  .calendar {
+    width: 49vw; /* Set a fixed width for the images */
+    height: 76vh; /* Set a fixed height for the images */
+    border-radius: 10px;
+    border: 4px solid rgb(0, 0, 0); /* Add black border */
+  }
+
+  /* Add styles for the text */
+  .calendar-container p {
+    font-size: 2.3vw; /* Adjust the font size as needed */
+    font-family: 'Lobster', cursive; /* Specify the font family */
+    margin-left: 2vw; /* Add some space between the image and text */
+    text-align: center; /* Center align the text horizontally */
+  }
+  .calendar-container w {
+    color: rgb(11, 51, 182);
+  }
+
+  .arrow-container2 {
+    position: relative;
+    flex: 0 0 auto; /* Prevent arrows from expanding */
+    margin-right: 10px; /* Add space between arrows and calendar */
+  }
+
+  .arrow2 {
+    color: rgb(255, 255, 255); /* Text color */
+    font-size: 7vw; /* Adjust arrow size */
+    border: none;
+    cursor: pointer;
+  }
+
+  .left-arrow2 {
+    position: absolute;
+    left: -47vw;
+    top: 50%;
+    transform: translateY(-200%);
+    background-color: rgba(0, 0, 255, 0);
+  }
+
+  .right-arrow2 {
+    position: absolute;
+    left: -10vw; /* Adjust the distance from the left side */
+    top: 50%;
+    transform: translateY(-200%);
+    background-color: rgba(0, 0, 255, 0);
+  }
+
+  .arrow2:hover {
+    color: rgb(0, 0, 0); /* Change to desired hover color */
+  }
 }
 
-.calendar-container {
-  display: flex; /* Use flexbox to align items */
-  align-items: center; /* Center align items vertically */
-  margin-bottom: 13vh;
-}
+/* Media query for smaller screens */
+@media screen and (max-width: 768px) {
+  .the-calendar-section {
+    flex-direction: column; /* Stack items vertically */
+    text-align: center; /* Center align text */
+    height: 100vh;
 
-.calendar {
-  width: 49vw; /* Set a fixed width for the images */
-  height: 76vh; /* Set a fixed height for the images */
-  border-radius: 10px;
-  border: 4px solid rgb(0, 0, 0); /* Add black border */
-}
+  }
 
-/* Add styles for the text */
-.calendar-container p {
-  font-size: 2.3vw; /* Adjust the font size as needed */
-  font-family: 'Lobster', cursive; /* Specify the font family */
-  margin-left: 2vw; /* Add some space between the image and text */
-  text-align: center; /* Center align the text horizontally */
-}
-.calendar-container w {
-  color: rgb(11, 51, 182);
-}
+  .calendar-container {
+    margin-bottom: 0; /* Remove margin */
 
-.arrow-container2 {
-  position: relative;
-  flex: 0 0 auto; /* Prevent arrows from expanding */
-  margin-right: 10px; /* Add space between arrows and calendar */
-}
+  }
 
-.arrow2 {
-  color: rgb(255, 255, 255); /* Text color */
-  font-size: 7vw; /* Adjust arrow size */
-  border: none;
-  cursor: pointer;
-}
+  .calendar {
+    width: 95vw; /* Adjust width for smaller screens */
+    height: auto; /* Let the height be determined by the content */
+    margin-top: 20vh;
+  }
 
-.left-arrow2 {
-  position: absolute;
-  left: -47vw;
-  top: 50%;
-  transform: translateY(-200%);
-  background-color: rgba(0, 0, 255, 0);
-}
+  .arrow-container2 {
+    margin-right: 0; /* Remove margin */
+  }
 
-.right-arrow2 {
-  position: absolute;
-  left: -10vw; /* Adjust the distance from the left side */
-  top: 50%;
-  transform: translateY(-200%);
-  background-color: rgba(0, 0, 255, 0);
+  .left-arrow2 {
+    position: static; /* Change position to static for normal flow */
+    transform: none; /* Reset transform */
+    margin-bottom: 0; /* Add some space between arrows */
+  }
 
-}
+  .right-arrow2 {
+    position: static; /* Change position to static for normal flow */
+    transform: none; /* Reset transform */
+    margin-top: 2vh; /* Add some space between arrows */
+  }
 
-.arrow2:hover {
-  color: rgb(0, 0, 0); /* Change to desired hover color */
+  .calendar-container p {
+    font-size: 5vw; /* Adjust the font size as needed */
+    font-family: 'Lobster', cursive; /* Specify the font family */
+    margin-left: 2vw; /* Add some space between the image and text */
+    text-align: center; /* Center align the text horizontally */
+  }
+
+  .calendar-container w {
+    color: rgb(11, 51, 182);
+  }
+
+  .arrow2 {
+    color: rgb(0, 0, 0); /* Text color */
+    background-color: rgb(255, 255, 255);
+    font-size: 10vw; /* Adjust arrow size */
+    border: none;
+    cursor: pointer;
+  }
 }

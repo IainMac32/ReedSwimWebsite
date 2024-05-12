@@ -1,5 +1,5 @@
-/* styles/ThePool.css */
-.the-pool-section {
+@media screen and (min-width: 769px) {
+  .the-pool-section {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -46,6 +46,64 @@
     margin-left: 27vw;
   }
 
+  .arrow:hover {
+      color: rgb(25, 0, 255); /* Change to desired hover color */
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .pool-image {
+    width: 95vw; /* Set a fixed width for the images */
+    height: 43vh; /* Set a fixed height for the images */
+    border-radius: 10px;
+    border: 4px solid rgb(25, 0, 255);; /* Add black border */
+    margin-top: 15vh;
+  }
+
+
+  .the-pool-section {
+    flex-direction: column; /* Stack items vertically */
+    text-align: center; /* Center align text */
+    height: 100vh;
+  }
+  
+  .pool-container {
+    position: relative;
+    margin-bottom: 12vh;
+  }
+  
+  
+  .arrow-container {
+    position: absolute;
+    top: 105%;
+    left: 50%; /* Center the container horizontally */
+    transform: translateX(-50%);
+    display: flex;
+  }
+  
+  
+  .arrow {
+    background: none;
+    border: none;
+    font-size: 15vw;
+    cursor: pointer;
+    color: #000000;
+    padding: 0;
+    background-color: rgb(255, 255, 255);
+    
+    
+  }
+  
+  .left-arrow {
+    margin-right: 5vw;
+  }
+  
+  .right-arrow {
+    margin-left: 5vw;
+  }
+
 .arrow:hover {
     color: rgb(25, 0, 255); /* Change to desired hover color */
+}
+
 }

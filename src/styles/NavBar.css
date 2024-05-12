@@ -28,3 +28,9 @@
   font-weight: bold;
   font-size: 1.2vw;
 }
+
+@media screen and (max-width: 768px) {
+  .navbar ul li a {
+    font-size: 3.0vw;
+  }
+}

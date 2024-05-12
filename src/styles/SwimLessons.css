@@ -1,4 +1,6 @@
-.the-lessons-section {
+@media screen and (min-width: 769px) {
+
+  .the-lessons-section {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -26,3 +28,32 @@
     margin-left: 25px;
 
   }
+}
+
+@media screen and (max-width: 768px) {
+  .the-lessons-section {
+    flex-direction: column; /* Stack items vertically */
+    text-align: center; /* Center align text */
+    height: 100vh;
+  }
+  
+  .plan-container {
+    position: relative;
+  }
+  
+  .plan1 {
+    width: 95vw; /* Set a fixed width for the images */
+    height: 34vh; /* Set a fixed height for the images */
+    border-radius: 10px;
+    border: 4px solid rgb(25, 0, 255);; /* Add black border */
+    margin-top: 10vh;
+  }
+
+  .plan2 {
+    width: 95vw; /* Set a fixed width for the images */
+    height: 34vh; /* Set a fixed height for the images */
+    border-radius: 10px;
+    border: 4px solid rgb(25, 0, 255);; /* Add black border */
+
+  }
+}
