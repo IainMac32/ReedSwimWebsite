@@ -29,8 +29,8 @@ const Calendar = () => {
       <div className="calendar-container">
         <img src={currentImage} alt="calendar" className="calendar" />
         <div className="arrow-container2">
-          <button onClick={prevImage} className="arrow2 left-arrow2">🠘</button>
-          <button onClick={nextImage} className="arrow2 right-arrow2">🠚</button>
+          <button onClick={prevImage} className="arrow2 left-arrow2">&lt;</button>
+          <button onClick={nextImage} className="arrow2 right-arrow2">&gt;</button>
         </div>
 
         <p>For booking or questions <br/>

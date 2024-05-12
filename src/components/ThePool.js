@@ -32,8 +32,8 @@ const ThePool = () => {
       <div className="pool-container">
         <img src={currentImage} alt="Pool" className="pool-image" />
         <div className="arrow-container">
-          <button onClick={prevImage} className="arrow left-arrow">🠘</button>
-          <button onClick={nextImage} className="arrow right-arrow">🠚</button>
+          <button onClick={prevImage} className="arrow left-arrow">&lt;</button>
+          <button onClick={nextImage} className="arrow right-arrow">&gt;</button>
         </div>
       </div>
     </section>
