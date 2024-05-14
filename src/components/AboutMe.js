@@ -9,7 +9,7 @@ const AboutMe = () => {
       <div className="about-me-content">
         <img src={lifeguardImage} alt="Lifeguard" className="lifeguard-image" />
         <div className="text-container">
-          <p>Hey there! I'm Reed, a high school student who's also a Certified Lifeguard with a passion for swimming. I've been immersed in the world of aquatics for as long as I can remember, and I'm thrilled to share my love for the water through my own swim school. Whether you're just dipping your toes or diving into competitive strokes, I'm here to make every lesson a splashin' success!</p>
+          <p>Hey there! I'm Reed, a high school student who's also a Certified Swim Instructor with a passion for swimming. I've been immersed in the world of aquatics for about 5 years, and I'm thrilled to share my love for the water through my own swim school. I offer 1 on 1 week long sessions in a backyard pool!</p>
         </div>
       </div>
     </section>
