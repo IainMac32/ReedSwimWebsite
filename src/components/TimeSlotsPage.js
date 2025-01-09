@@ -97,7 +97,7 @@ const TimeSlotsPage = () => {
 
     // Send email using EmailJS
     emailjs
-      .send('service_slj47tf', 'template_46ag35e', templateParams, 'D1U_HMhnLbz8Ryzb4') // Use your actual template_id here
+      .send('service_kud0e99', 'template_46ag35e', templateParams, 'D1U_HMhnLbz8Ryzb4') // Use your actual template_id here
       .then(
         (response) => {
           alert('Your booking has been submitted!');
