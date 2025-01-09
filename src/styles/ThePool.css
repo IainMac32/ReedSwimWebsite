@@ -15,7 +15,7 @@
     width: 50vw; /* Set a fixed width for the images */
     height: 73vh; /* Set a fixed height for the images */
     border-radius: 10px;
-    border: 4px solid rgb(25, 0, 255);; /* Add black border */
+    border: 4px solid #007bff; /* Add black border */
   }
   
   .arrow-container {
@@ -48,6 +48,8 @@
 
   .arrow:hover {
       color: rgb(25, 0, 255); /* Change to desired hover color */
+      background-color: rgb(255, 255, 255);
+
   }
 }
 
@@ -56,7 +58,7 @@
     width: 95vw; /* Set a fixed width for the images */
     height: 43vh; /* Set a fixed height for the images */
     border-radius: 10px;
-    border: 4px solid rgb(25, 0, 255);; /* Add black border */
+    border: 4px solid #007bff; /* Add black border */
     margin-top: 15vh;
   }
 
@@ -104,6 +106,7 @@
 
 .arrow:hover {
     color: rgb(25, 0, 255); /* Change to desired hover color */
+    background-color: rgb(255, 255, 255);
 }
 
 }

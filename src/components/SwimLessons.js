@@ -1,20 +1,47 @@
-// AboutMe.js
+// SwimLessons.js
 import React from 'react';
-import plan1 from '../images/ReedPlan1.jpg';
-import plan2 from '../images/ReedPlan2.jpg';
 import '../styles/SwimLessons.css';
 
-
 const SwimLessons = () => {
-  return (
-    <section id="swim-lessons" className="the-lessons-section">
-      <div className="plan-container">
-        <img src={plan1} alt="paymentPlan1" className="plan1" />
-        <img src={plan2} alt="paymentPlan2" className="plan2" />
-      </div>
+    const lessonPlans = [
+        {
+            title: "Week Long Plan",
+            description: (
+              <>
+                Beginner to Pro<br />
+                Ages 2 and up<br />
+                30-minute lessons
+              </>
+            ),
+            price: "$225 per week"
+        },
+        
+        {
+            title: "Weekly Plan",
+            description: (
+              <>
+                Beginner to Pro<br />
+                Ages 2 and up<br />
+                30-minute lessons
+              </>
+            ),
+            price: "$40 per lesson"
+        }
+    ];
 
-    </section>
-  );
+    return (
+        <section id="swim-lessons" className="the-lessons-section">
+            <div className="plan-container">
+                {lessonPlans.map((plan, index) => (
+                    <div key={index} className="lesson-card">
+                        <h2>{plan.title}</h2>
+                        <p>{plan.description}</p>
+                        <p className="lesson-price">{plan.price}</p>
+                    </div>
+                ))}
+            </div>
+        </section>
+    );
 }
 
 export default SwimLessons;

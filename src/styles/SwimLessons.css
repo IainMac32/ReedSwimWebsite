@@ -1,59 +1,37 @@
-@media screen and (min-width: 769px) {
-
-  .the-lessons-section {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-  }
-  
-  .plan-container {
-    position: relative;
-    margin-bottom: 12vh;
-  }
-  
-  .plan1 {
-    width: 42vw; /* Set a fixed width for the images */
-    height: 67vh; /* Set a fixed height for the images */
-    border-radius: 10px;
-    border: 4px solid rgb(25, 0, 255);; /* Add black border */
-    margin-right: 25px;
-  }
-
-  .plan2 {
-    width: 42vw; /* Set a fixed width for the images */
-    height: 67vh; /* Set a fixed height for the images */
-    border-radius: 10px;
-    border: 4px solid rgb(25, 0, 255);; /* Add black border */
-    margin-left: 25px;
-
-  }
+.the-lessons-section {
+  text-align: center;
+  height: 80vh; /* Set the height of the section to 100% of the viewport height */
 }
 
-@media screen and (max-width: 768px) {
-  .the-lessons-section {
-    flex-direction: column; /* Stack items vertically */
-    text-align: center; /* Center align text */
-    height: 100vh;
-  }
-  
-  .plan-container {
-    position: relative;
-  }
-  
-  .plan1 {
-    width: 95vw; /* Set a fixed width for the images */
-    height: 34vh; /* Set a fixed height for the images */
-    border-radius: 10px;
-    border: 4px solid rgb(25, 0, 255);; /* Add black border */
-    margin-top: 10vh;
-  }
+.plan-container {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
 
-  .plan2 {
-    width: 95vw; /* Set a fixed width for the images */
-    height: 34vh; /* Set a fixed height for the images */
-    border-radius: 10px;
-    border: 4px solid rgb(25, 0, 255);; /* Add black border */
+#swim-lessons {
+  display: flex;
+  justify-content: center; /* Centers horizontally */
+  align-items: center; /* Centers vertically */
+  min-height: 100vh; /* Full viewport height for proper centering */
+  padding: 0px;
+}
 
-  }
+
+.lesson-card {
+  border: 3px solid #007bff;
+  border-radius: 12px;
+  padding: 70px; /* Increased padding for a larger card */
+  max-width: 400px; /* Increased maximum width */
+  min-width: 350px; /* Set a minimum height to make them taller */
+
+  min-height: 300px; /* Set a minimum height to make them taller */
+  box-shadow: 0 6px 12px rgba(0,0,0,0.3);
+  font-size: 1.6rem; /* Larger text size */
+}
+
+
+.lesson-price {
+  font-weight: bold;
+  color: #007bff;
 }
