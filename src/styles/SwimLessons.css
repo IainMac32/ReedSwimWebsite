@@ -21,11 +21,11 @@
 .lesson-card {
   border: 3px solid #007bff;
   border-radius: 12px;
-  padding: 70px; /* Increased padding for a larger card */
-  max-width: 400px; /* Increased maximum width */
-  min-width: 350px; /* Set a minimum height to make them taller */
+  padding: 5vw; /* Increased padding for a larger card */
+  max-width: 30vw; /* Increased maximum width */
+  min-width: 22vw; /* Set a minimum height to make them taller */
 
-  min-height: 300px; /* Set a minimum height to make them taller */
+  min-height: 15vw; /* Set a minimum height to make them taller */
   box-shadow: 0 6px 12px rgba(0,0,0,0.3);
   font-size: 1.6rem; /* Larger text size */
 }

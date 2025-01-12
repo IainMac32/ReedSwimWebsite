@@ -25,7 +25,7 @@ const SwimLessons = () => {
                 30-minute lessons
               </>
             ),
-            price: "$40 per lesson"
+            price: "$45 per lesson"
         }
     ];
 
