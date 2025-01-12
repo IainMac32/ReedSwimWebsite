@@ -8,8 +8,8 @@
 
 /* Styles the calendar to be medium-sized */
 .react-calendar {
-  width: 60vw; /* Adjust the width to your desired size */
-  height: 62vh;
+  width: 70vw; /* Adjust the width to your desired size */
+  height: 65vh;
   max-width: 100%; /* Ensure it is responsive */
   border: 1px solid #000000; /* Optional: adds a border */
   border-radius: 8px; /* Optional: gives rounded corners */
